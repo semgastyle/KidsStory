@@ -20,8 +20,10 @@
 
 $violet-color: #8081BD;
 $orange-color: #F6B31F;
+$yellow-color: #FFF6D1;
 $pink-color: #F3ACC8;
 $btn-color: #334155;
+$radius: 10px;
 
 .body, 
 * {
@@ -109,7 +111,6 @@ a {
 
     .header__menu {
         display: inline-block;
-        border: 2px solid red;
         vertical-align: top;
         padding-left: 0;
     }
@@ -158,9 +159,7 @@ a {
     }
 }
 
-.header__data {
-    border: 2px solid red;
-}
+
 .header__square-img {
     display: inline-block;
    
@@ -213,7 +212,6 @@ a {
         display: inline-block;
         width: 364px;
         height: 278px;
-        font-size: 16px;
         vertical-align: top;
         
         p {
@@ -272,4 +270,206 @@ a {
     bottom: 0px;
     right: 90px;
 }
+
+.card_text_small {
+    font-size: 16px;
+}
+
+.services {
+    margin-top: 116px;
+}
+
+.services__title {
+    margin-top: 0;
+    margin-bottom: 41px;
+    color: $violet-color;
+}
+
+.services__services_box {
+    display: inline-block;
+    background-color: $yellow-color;
+    margin-right: 19px;
+    margin-bottom: 29px;
+    border-radius: $radius;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.services__services_box1 {
+    width: 268px;
+}
+
+.services__services_box_img_1 {
+    background-image: url(img/12.png);
+}
+
+.services__services_box2 {
+    width: 557px;
+}
+
+.services__services_box_img_2 {
+    background-image: url(img/13.png);
+}
+
+.services__services_box3 {
+    width: 268px;
+}
+
+.services__services_box_img_3 {
+    background-image: url(img/14.png);
+}
+
+.services__services_box4 {
+    width: 268px;
+    margin-right: -50px;
+}
+
+.services__services_box_img_4 {
+    background-image: url(img/15.png);
+}
+
+.services__services_box5 {
+    width: 363px;
+}
+
+.services__services_box_img_5 {
+    background-image: url(img/16.png);
+}
+
+.services__services_box6 {
+    width: 268px;
+}
+
+.services__services_box_img_6 {
+    background-image: url(img/17.png);
+}
+
+.services__services_box7 {
+    width: 363px;
+}
+
+.services__services_box_img_7 {
+    background-image: url(img/18.png);
+}
+
+.services__services_box8 {
+    width: 363px;
+    margin-right: -50px;
+}
+
+.services__services_box_img_8 {
+    background-image: url(img/19.png);
+}
+
+.services__services_box9 {
+    width: 460px;
+    margin-bottom: 0;
+}
+
+.services__services_box_img_9 {
+    background-image: url(img/20.png);
+}
+
+.services__services_box10 {
+    width: 460px;
+    margin-bottom: 0;
+}
+
+.services__services_box_img_10 {
+    background-image: url(img/21.png);
+}
+
+.services__services_box11 {
+    width: 461px;
+    margin-right: -33px;
+    margin-bottom: 0;
+}
+
+.services__services_box_img_11 {
+    background-image: url(img/22.png);
+}
+
+.services__card_text_small {
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.services__services_box_img {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 8px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    margin-left: 12px;
+}
+
+.services__card_text_small1 {
+    width: 50px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.services__card_text_small2 {
+    width: 300px;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 65px;
+}
+
+.services__card_text_small3 {
+    width: 130px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.services__card_text_small4 {
+    width: 90px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.services__card_text_small5 {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.services__card_text_small6 {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.services__card_text_small7 {
+    width: 220px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.services__card_text_small8 {
+    width: 250px;
+    margin-top: 30px;
+}
+
+.services__card_text_small9 {
+    width: 350px;
+    margin-top: 33px;
+}
+ 
+.services__card_text_small10 {
+    width: 350px;
+    margin-top: 33px;
+}
+
+.services__card_text_small11 {
+    width: 350px;
+    margin-top: 25px;
+}
+
+
+
+
 
